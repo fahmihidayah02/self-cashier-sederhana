@@ -35,34 +35,79 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
 
 # Method yang digunakan
 
-1.	`tambah_barang()`(self, nama_barang, jumlah_barang, harga_barang)
-    Metode ini digunakan untuk memasukkan barang ke daftar barang belanja.
+1.	`Transcaction()`
+   
+    Membuat kelas transaksi untuk menghimpun data transaksi dan membuat fungsi/method sehingga menghasilkan objek
 
-2.	`update_nama_barang()` (self, nama_barang, nama_barang_baru)
-    Metode ini digunakan untuk merubah nama barang yang sudah ada dalam daftar barang belanja.
+2.	`tambah_barang()` (self, nama_barang, jumlah_barang, harga_barang)
+   
+  	Metode ini digunakan untuk memasukkan barang ke daftar barang belanja.
 
-3.	`update_jumlah_barang()`(self, nama_barang, jumlah_barang_baru)
-    Metode ini digunakan untuk merubah jumlah barang berdasarkan nama barang yang ada didalam daftar barang belanja.
+3.	`update_nama_barang()` (self, nama_barang, nama_barang_baru)
 
-4.	`update_harga_barang()`
-    Metode ini digunakan untuk merubah harga barang berdasarkan nama barang yang ada didalam daftar barang belanja.
+  	Metode ini digunakan untuk merubah nama barang yang sudah ada dalam daftar barang belanja.
 
-5.	`hapus_barang()`
-    Metode ini digunakan untuk menghapus salah satu barang yang diinginkan berdasarkan nama barang yang ada didalam daftar barang belanja
+4.	`update_jumlah_barang()` (self, nama_barang, jumlah_barang_baru)
 
-6.	`reset_transaction()`
-    Metode ini digunakan untuk menghapus semua barang didalam daftar barang belanjaan.
+  	Metode ini digunakan untuk merubah jumlah barang berdasarkan nama barang yang ada didalam daftar barang belanja.
 
-7.	`cek_order()`
-    Metode ini digunakan untuk memastikan data yang diinputkan sudah benar atau belum.
+5.	`update_harga_barang()` (self,nama_barang,jumlah_barang_baru)
 
-8.	`total_belanja()`
-    Metode ini digunakan untuk menghitung total harga dari daftar barang belanja customer.
+  	Metode ini digunakan untuk merubah harga barang berdasarkan nama barang yang ada didalam daftar barang belanja.
+
+6.	`hapus_barang()` (self,nama_barang)
+
+  	Metode ini digunakan untuk menghapus salah satu barang yang diinginkan berdasarkan nama barang yang ada didalam     `daftar barang belanja
+
+7.	`reset_transaction()`
+
+   	Metode ini digunakan untuk menghapus semua barang didalam daftar barang belanjaan.
+
+8.	`cek_order()`
+
+   	Metode ini digunakan untuk memastikan data yang diinputkan sudah benar atau belum.
+
+9.	`total_belanja()`
+
+   	Metode ini digunakan untuk menghitung total harga dari daftar barang belanja customer.
 
 # FLOWCHART
 <p>
 <img align="center" src="flowchart.jpg" width="800" height="1200" />
 </p>
+
+# ALUR PROGRAM
+1.	Customer membuat ID transaksi dengan membuat objek dari class trnsct_123 = Transaction()
+   
+2.	Customer memasukkan nama barang, jumlah, barang, dan harga barang
+   
+3.	kemudian dicek apakah ada kesalahan inputan, jika ada kesalahan inputan tapi tidak ingin menghapus barangnya,
+
+  	maka customer dapat melakukan salah satu dari method dibawah:
+  	
+        o	update nama barang dengan method update_nama_barang()
+  	
+        o	update jumlah barang dengan method update_jumlah_barang()
+  	
+        o	update harga barang dengan method update_harga_barang()
+  	
+4.	Jika customer ingin membatalkan salah satu barang, customer dapat menghapus salah satu barang dengan method
+  
+	hapus_barang, ketika menghapus salah satu item maka jumlah barang dan harga barang ikut terhapus.
+
+5.	Jika customer ingin menghapus semua barang di daftar barang, yaitu menggunakan method reset_transaction()
+   
+6.	Apabila customer sudah selesai belanja online, tapi masih ragu apakah inputannya sudah benar atau belum, maka
+
+  	customer dapat menggunakan method cek_order dan mengeluarkan pesan "pemesanan sudah benar" jika tidak ada
+
+  	kesalahan input. Jika ada kesalahan input maka mengeluarkan pesan "terdapat kesalahan input data.
+  	
+7.	Setelah melakukan pengecekan, customer dapat menghitung total belanja dengan method total_belanja() dengan           ketentuan:
+        o	jika total belanja > 500_000 maka dapat diskon 10%
+        o	jika total belanja > 300_000 maka dapat diskon 8%
+        o	jika total belanja > 200_000 maka dapat diskon 5%
+
 
 # METHOD UPDATE TAMBAH BARANG
 <p>
