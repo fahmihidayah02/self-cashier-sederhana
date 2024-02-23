@@ -126,7 +126,7 @@ Customer ingin mengubah nama barang apel menjadi duku dengan method update_nama_
 </p>
 
 # TEST 3
-Customer ingin mengubah nama barang apel menjadi duku dengan method update_nama_barang(). Expected Output:
+Customer ingin mengubah jumlah barang mangga menjadi 17 buah dengan method update_jumlah_barang(). Expected Output:
 <p>
 <img align="center" src="method update_jumlah_barang.png" width="600" height="300" />
 </p>
@@ -144,13 +144,13 @@ Customer ingin menghapus barang duku dengan method hapus_barang(). Expected Outp
 </p>
 
 # TEST 6
-Customer ingin menghapus seluruh barang dengan method reset_transaction(). Expected Output:
+Customer ingin menghitung barang total belanja dengan method total_belanja(). Expected Output:
 <p>
-<img align="center" src="method reset_transaction.png" width="600" height="300" />
+<img align="center" src="method total_belanja.png" width="600" height="300" />
 </p>
 
 # TEST 7
-Cuso
+Customer ingin mengecek belanjaan dengan method cek_order(). Expected Output:
 <p>
 <img align="center" src="method_cek_order.png" width="600" height="300" />
 </p>
@@ -158,5 +158,8 @@ Cuso
 # TEST 8
 Customer ingin menghapus seluruh barang dengan method reset_transaction(). Expected Output:
 <p>
-<img align="center" src="method total_belanja.png" width="600" height="300" />
+<img align="center" src="method reset_transaction.png" width="600" height="300" />
 </p>
+
+# SARAN PENGEMBANGAN
+Saran pengembangan selanjutnya, program ini dapat ditambahkan fitur-fitur yang user friendly, dapat menghitung jika ada pajak transaksi, dapat membuat history transaksi, cek stok barang, serta menyimpan data-data transaksi kedalam database.
