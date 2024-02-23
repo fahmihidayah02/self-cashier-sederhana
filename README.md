@@ -104,8 +104,11 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
   	kesalahan input. Jika ada kesalahan input maka mengeluarkan pesan "terdapat kesalahan input data.
   	
 7.	Setelah melakukan pengecekan, customer dapat menghitung total belanja dengan method total_belanja() dengan           ketentuan:
+   
         o	jika total belanja > 500_000 maka dapat diskon 10%
+  	
         o	jika total belanja > 300_000 maka dapat diskon 8%
+  	
         o	jika total belanja > 200_000 maka dapat diskon 5%
 
 
