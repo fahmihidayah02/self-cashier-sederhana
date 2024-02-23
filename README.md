@@ -81,9 +81,7 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
    
 2.	Customer memasukkan nama barang, jumlah, barang, dan harga barang
    
-3.	kemudian dicek apakah ada kesalahan inputan, jika ada kesalahan inputan tapi tidak ingin menghapus barangnya,
-
-maka customer dapat melakukan salah satu dari method dibawah:
+3.	kemudian dicek apakah ada kesalahan inputan, jika ada kesalahan inputan tapi tidak ingin menghapus barangnya,maka customer dapat melakukan salah satu dari method dibawah:
   	
         o	update nama barang dengan method update_nama_barang()
   	
@@ -92,16 +90,12 @@ maka customer dapat melakukan salah satu dari method dibawah:
         o	update harga barang dengan method update_harga_barang()
   	
 4.	Jika customer ingin membatalkan salah satu barang, customer dapat menghapus salah satu barang dengan method
-
 hapus_barang, ketika menghapus salah satu item maka jumlah barang dan harga barang ikut terhapus.
 
 6.	Jika customer ingin menghapus semua barang di daftar barang, yaitu menggunakan method reset_transaction()
    
 7.	Apabila customer sudah selesai belanja online, tapi masih ragu apakah inputannya sudah benar atau belum, maka
-
-customer dapat menggunakan method cek_order dan mengeluarkan pesan "pemesanan sudah benar" jika tidak ada
-
-  kesalahan input. Jika ada kesalahan input maka mengeluarkan pesan "terdapat kesalahan input data.
+customer dapat menggunakan method cek_order dan mengeluarkan pesan "pemesanan sudah benar" jika tidak ada kesalahan input. Jika ada kesalahan input maka mengeluarkan pesan "terdapat kesalahan input data.
   	
 8.	Setelah melakukan pengecekan, customer dapat menghitung total belanja dengan method total_belanja() dengan           ketentuan:
    
@@ -111,43 +105,58 @@ customer dapat menggunakan method cek_order dan mengeluarkan pesan "pemesanan su
   	
         o	jika total belanja > 200_000 maka dapat diskon 5%
 
+# TEST CASE
+# TEST 1
+Customer ingin menambahkan dua 4 barang baru dengan method tambah_barang(). Barang yang diinputkan:
 
-# METHOD UPDATE TAMBAH BARANG
+nama barang: apel, jumlah: 20, harga: 3000
+nama barang: jambu, jumlah: 25, harga: 2500
+nama barang: mangga, jumlah: 25, harga: 5000
+nama barang: jeruk, jumlah: 33, harga: 3500 Expected Output:
+
 <p>
 <img align="center" src="method tambah_barang.png" width="600" height="300" />
 </p>
 
-# METHOD UPDATE NAMA BARANG
+# TEST 2
+Customer ingin mengubah nama barang apel menjadi duku dengan method update_nama_barang(). Expected Output:
+
 <p>
 <img align="center" src="method update_nama_barang.png" width="600" height="300" />
 </p>
 
-# METHOD UPDATE JUMLAH BARANG
+# TEST 3
+Customer ingin mengubah nama barang apel menjadi duku dengan method update_nama_barang(). Expected Output:
 <p>
 <img align="center" src="method update_jumlah_barang.png" width="600" height="300" />
 </p>
 
-# METHOD UPDATE HARGA BARANG
+# TEST 4
+Customer ingin mengubah harga barang jambu menjadi 3000 dengan method update_harga_barang(). Expected Output:
 <p>
 <img align="center" src="method update_harga_barang.png" width="600" height="300" />
 </p>
 
-# METHOD HAPUS BARANG
+# TEST 5
+Customer ingin menghapus barang duku dengan method hapus_barang(). Expected Output:
 <p>
 <img align="center" src="method hapus_barang.png" width="600" height="300" />
 </p>
 
-# METHOD RESET TRANSACTION
+# TEST 6
+Customer ingin menghapus seluruh barang dengan method reset_transaction(). Expected Output:
 <p>
 <img align="center" src="method reset_transaction.png" width="600" height="300" />
 </p>
 
-# METHOD CEK ORDER
+# TEST 7
+Cuso
 <p>
 <img align="center" src="method_cek_order.png" width="600" height="300" />
 </p>
 
-# METHOD TOTAL BELANJA
+# TEST 8
+Customer ingin menghapus seluruh barang dengan method reset_transaction(). Expected Output:
 <p>
 <img align="center" src="method total_belanja.png" width="600" height="300" />
 </p>
