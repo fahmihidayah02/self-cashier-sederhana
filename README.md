@@ -45,6 +45,15 @@ Metode ini digunakan untuk memastikan data yang diinputkan sudah benar atau belu
 total_belanja()
 
 Metode ini digunakan untuk menghitung total harga dari daftar barang belanja customer.
+
 <p>
 <img align="center" src="flowchart.jpg" width="800" height="1200" />
+</p>
+
+<p>
+<img align="center" src="method tambah_barang.jpg" width="800" height="1200" />
+</p>
+
+<p>
+<img align="center" src="method update_nama_barang.jpg" width="800" height="1200" />
 </p>
