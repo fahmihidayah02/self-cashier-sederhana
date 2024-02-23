@@ -46,14 +46,42 @@ total_belanja()
 
 Metode ini digunakan untuk menghitung total harga dari daftar barang belanja customer.
 
+# FLOWCHART
 <p>
 <img align="center" src="flowchart.jpg" width="800" height="1200" />
 </p>
 
+# METHOD UPDATE TAMBAH BARANG
 <p>
-<img align="center" src="method tambah_barang.jpg" width="800" height="1200" />
+<img align="center" src="method tambah_barang.jpg" width="700" height="900" />
 </p>
 
+# METHOD UPDATE NAMA BARANG
 <p>
-<img align="center" src="method update_nama_barang.jpg" width="800" height="1200" />
+<img align="center" src="method update_nama_barang.jpg" width="700" height="900" />
+</p>
+
+# METHOD UPDATE JUMLAH BARANG
+<p>
+<img align="center" src="method update_jumlah_barang.jpg" width="700" height="900" />
+</p>
+
+# METHOD UPDATE HARGA BARANG
+<p>
+<img align="center" src="method update_harga_barang.jpg" width="700" height="900" />
+</p>
+
+# METHOD HAPUS BARANG
+<p>
+<img align="center" src="method hapus_barang.jpg" width="700" height="900" />
+</p>
+
+# METHOD RESET TRANSACTION
+<p>
+<img align="center" src="method reset_transaction.jpg" width="700" height="900" />
+</p>
+
+# METHOD CEK ORDER
+<p>
+<img align="center" src="cek order.jpg" width="700" height="900" />
 </p>
