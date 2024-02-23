@@ -10,24 +10,26 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
 
 2.	Jika customer salah input, ia dapat mengubah salah satu inputanya:
 
-•	mengubah nama barang dengan metode update_nama_barang.
-•	mengubah jumlah barang dengan metode update_jumlah_barang.
-•	mengubah harga barang dengan metode update_harga_barang.
+    •	mengubah nama barang dengan metode update_nama_barang.
+  	
+    •	mengubah jumlah barang dengan metode update_jumlah_barang.
+  	
+    •	mengubah harga barang dengan metode update_harga_barang.
 
-3.	Jika customer ingin menghapus salah satu barang dari daftar barang belanjanya, dapat menggunakan metode hapus_barang.
+4.	Jika customer ingin menghapus salah satu barang dari daftar barang belanjanya, dapat menggunakan metode hapus_barang.
 
-4.	Jika customer ingin menghapus semua barang dari daftar belanjanya, dapat menggunakan metode reset_transaction.
+5.	Jika customer ingin menghapus semua barang dari daftar belanjanya, dapat menggunakan metode reset_transaction.
 
 
-5.	Sebelum dapat menghitung total belanjanya, isi dari daftar belanja customer dicek dulu dengan metode cek_order. Metode ini mengecek apakah ada inputan yang masih salah pada daftar barang belanja customer.
+6.	Sebelum dapat menghitung total belanjanya, isi dari daftar belanja customer dicek dulu dengan metode cek_order. Metode ini mengecek apakah ada inputan yang masih salah pada daftar barang belanja customer.
 
-6.	Sistem dapat menghitung semua total belanja dan juga diskon yang didapatkannya dengan metode total_belanja.
+7.	Sistem dapat menghitung semua total belanja dan juga diskon yang didapatkannya dengan metode total_belanja.
 
-7.	Ketentuan untuk memperoleh diskon:
+8.	Ketentuan untuk memperoleh diskon:
 
-•	Jika total belanja diatas Rp.500.000, maka diskon 10%
-•	Jika total belanja diatas Rp.300.000, maka diskon 8%
-•	Jika total belanja diatas Rp.200.000, maka diskon 5%
+    •	Jika total belanja diatas Rp.500.000, maka diskon 10%
+    •	Jika total belanja diatas Rp.300.000, maka diskon 8%
+    •	Jika total belanja diatas Rp.200.000, maka diskon 5%
 
 # Method yang digunakan
 1.	tambah_barang()
