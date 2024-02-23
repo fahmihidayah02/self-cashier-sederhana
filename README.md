@@ -83,7 +83,7 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
    
 3.	kemudian dicek apakah ada kesalahan inputan, jika ada kesalahan inputan tapi tidak ingin menghapus barangnya,
 
-  	maka customer dapat melakukan salah satu dari method dibawah:
+maka customer dapat melakukan salah satu dari method dibawah:
   	
         o	update nama barang dengan method update_nama_barang()
   	
@@ -92,18 +92,18 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
         o	update harga barang dengan method update_harga_barang()
   	
 4.	Jika customer ingin membatalkan salah satu barang, customer dapat menghapus salah satu barang dengan method
-  
-	hapus_barang, ketika menghapus salah satu item maka jumlah barang dan harga barang ikut terhapus.
 
-5.	Jika customer ingin menghapus semua barang di daftar barang, yaitu menggunakan method reset_transaction()
+hapus_barang, ketika menghapus salah satu item maka jumlah barang dan harga barang ikut terhapus.
+
+6.	Jika customer ingin menghapus semua barang di daftar barang, yaitu menggunakan method reset_transaction()
    
-6.	Apabila customer sudah selesai belanja online, tapi masih ragu apakah inputannya sudah benar atau belum, maka
+7.	Apabila customer sudah selesai belanja online, tapi masih ragu apakah inputannya sudah benar atau belum, maka
 
-  	customer dapat menggunakan method cek_order dan mengeluarkan pesan "pemesanan sudah benar" jika tidak ada
+customer dapat menggunakan method cek_order dan mengeluarkan pesan "pemesanan sudah benar" jika tidak ada
 
-  	kesalahan input. Jika ada kesalahan input maka mengeluarkan pesan "terdapat kesalahan input data.
+  kesalahan input. Jika ada kesalahan input maka mengeluarkan pesan "terdapat kesalahan input data.
   	
-7.	Setelah melakukan pengecekan, customer dapat menghitung total belanja dengan method total_belanja() dengan           ketentuan:
+8.	Setelah melakukan pengecekan, customer dapat menghitung total belanja dengan method total_belanja() dengan           ketentuan:
    
         o	jika total belanja > 500_000 maka dapat diskon 10%
   	
