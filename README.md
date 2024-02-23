@@ -27,20 +27,21 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
 
 8.	Ketentuan untuk memperoleh diskon:
 
-    •	Jika total belanja diatas Rp.500.000, maka diskon 10%
+    •	Jika total belanja diatas **Rp.500.000**, maka diskon **10%**
   	
-    •	Jika total belanja diatas Rp.300.000, maka diskon 8%
+    •	Jika total belanja diatas **Rp.300.000**, maka diskon **8%**
   	
-    •	Jika total belanja diatas Rp.200.000, maka diskon 5%
+    •	Jika total belanja diatas **Rp.200.000**, maka diskon **5%**
 
 # Method yang digunakan
-1.	`tambah_barang()`
+
+1.	`tambah_barang()`(self, nama_barang, jumlah_barang, harga_barang)
     Metode ini digunakan untuk memasukkan barang ke daftar barang belanja.
 
-2.	`update_nama_barang()`
+2.	`update_nama_barang()` (self, nama_barang, nama_barang_baru)
     Metode ini digunakan untuk merubah nama barang yang sudah ada dalam daftar barang belanja.
 
-3.	`update_jumlah_barang()`
+3.	`update_jumlah_barang()`(self, nama_barang, jumlah_barang_baru)
     Metode ini digunakan untuk merubah jumlah barang berdasarkan nama barang yang ada didalam daftar barang belanja.
 
 4.	`update_harga_barang()`
