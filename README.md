@@ -1,3 +1,5 @@
 # self-cashier-sederhana
 project self cashier
-![Uploading flowchart.jpg…]()
+<p>
+<img align="center" src="src/flowchart.jpg" width="800" height="1200" />
+</p>
