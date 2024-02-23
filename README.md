@@ -28,7 +28,9 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
 8.	Ketentuan untuk memperoleh diskon:
 
     •	Jika total belanja diatas Rp.500.000, maka diskon 10%
+  	
     •	Jika total belanja diatas Rp.300.000, maka diskon 8%
+  	
     •	Jika total belanja diatas Rp.200.000, maka diskon 5%
 
 # Method yang digunakan
