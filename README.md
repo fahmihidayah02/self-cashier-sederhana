@@ -5,6 +5,7 @@ Untuk memecahkan masalah tersebut adalah dengan membuat program Cashier Self-Ser
 
 # Objective
 Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang dapat melakukan beberapa metode yaitu:
+
 1.	Customer dapat menginput barang, jumlah barang, dan juga harga barang dengan metode tambah_barang.
 2.	Jika customer salah input, ia dapat mengubah salah satu inputanya:
     •	mengubah nama barang dengan metode update_nama_barang.
@@ -12,12 +13,13 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
     •	mengubah harga barang dengan metode update_harga_barang.
 3.	Jika customer ingin menghapus salah satu barang dari daftar barang belanjanya, dapat menggunakan metode hapus_barang.
 4.	Jika customer ingin menghapus semua barang dari daftar belanjanya, dapat menggunakan metode reset_transaction.
-5.	Sebelum dapat menghitung total belanjanya, isi dari daftar belanja customer dicek dulu dengan metode cek_order. Metode ini mengecek apakah ada inputan yang masih salah pada daftar barang belanja customer.
+5.	Sebelum dapat menghitung total belanjanya, isi dari daftar belanja customer dicek dulu dengan metode cek_order. Metode ini mengecek apakah ada inputan yang masih      salah pada daftar barang belanja customer.
 6.	Sistem dapat menghitung semua total belanja dan juga diskon yang didapatkannya dengan metode total_belanja.
 7.	Ketentuan untuk memperoleh diskon:
     •	Jika total belanja diatas Rp.500.000, maka diskon 10%
     •	Jika total belanja diatas Rp.300.000, maka diskon 8%
     •	Jika total belanja diatas Rp.200.000, maka diskon 5%
+
 
 # Method yang digunakan
 1.	tambah_barang()
