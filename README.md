@@ -34,28 +34,28 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
     •	Jika total belanja diatas Rp.200.000, maka diskon 5%
 
 # Method yang digunakan
-1.	tambah_barang()
+1.	**tambah_barang()**
     Metode ini digunakan untuk memasukkan barang ke daftar barang belanja.
 
-2.	update_nama_barang()
+2.	**update_nama_barang()**
     Metode ini digunakan untuk merubah nama barang yang sudah ada dalam daftar barang belanja.
 
-3.	update_jumlah_barang()
+3.	**update_jumlah_barang()**
     Metode ini digunakan untuk merubah jumlah barang berdasarkan nama barang yang ada didalam daftar barang belanja.
 
-4.	update_harga_barang()
+4.	**update_harga_barang()**
     Metode ini digunakan untuk merubah harga barang berdasarkan nama barang yang ada didalam daftar barang belanja.
 
-5.	hapus_barang()
+5.	**hapus_barang()**
     Metode ini digunakan untuk menghapus salah satu barang yang diinginkan berdasarkan nama barang yang ada didalam daftar barang belanja
 
-6.	reset_transaction()
+6.	**reset_transaction()**
     Metode ini digunakan untuk menghapus semua barang didalam daftar barang belanjaan.
 
-7.	cek_order()
+7.	**cek_order()**
     Metode ini digunakan untuk memastikan data yang diinputkan sudah benar atau belum.
 
-8.	total_belanja()
+8.	**total_belanja()**
     Metode ini digunakan untuk menghitung total harga dari daftar barang belanja customer.
 
 # FLOWCHART
