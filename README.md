@@ -40,9 +40,10 @@ reset_transaction()
 Metode ini digunakan untuk menghapus semua barang didalam daftar barang belanjaan.
 
 cek_order()
-Mwtode ini digunakan untuk memastikan data yang diinputkan sudah benar atau belum.
+Metode ini digunakan untuk memastikan data yang diinputkan sudah benar atau belum.
 
 total_belanja()
+
 Metode ini digunakan untuk menghitung total harga dari daftar barang belanja customer.
 <p>
 <img align="center" src="flowchart.jpg" width="800" height="1200" />
