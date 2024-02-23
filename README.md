@@ -83,5 +83,5 @@ Metode ini digunakan untuk menghitung total harga dari daftar barang belanja cus
 
 # METHOD CEK ORDER
 <p>
-<img align="center" src="cek_order.jpg" width="700" height="900" />
+<img align="center" src="method_cek_order.jpg" width="700" height="900" />
 </p>
