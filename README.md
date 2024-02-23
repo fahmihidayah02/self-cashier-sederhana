@@ -1,10 +1,10 @@
 # self-cashier-sederhana
-Latar Belakang Masalah
+# Latar Belakang Masalah
 Andi adalah seorang pemilik supermarket. Beliau ingin memperbaiki proses bisnis di supermarket miliknya, yaitu dengan membuat sistem kasir self-service agar customer bisa langsung menginputkan barang yang dibelinya saat ingin melakukan pembayaran secara mandiri. Hal ini dilakukan agar customer yang berada di luar kota juga bisa membeli barang dari supermarket tersebut.
 
 Untuk memecahkan masalah tersebut adalah dengan membuat program Cashier Self-Service untuk memperbaiki proses bisnis di supermarket milik Andi.
 
-Objective
+# Objective
 Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang dapat melakukan beberapa metode yaitu:
 
 Customer dapat menginput barang, jumlah barang, dan juga harga barang dengan metode tambah_barang.
@@ -20,7 +20,7 @@ Ketentuan untuk memperoleh diskon:
 Jika total belanja diatas Rp.500.000, maka diskon 10%
 Jika total belanja diatas Rp.300.000, maka diskon 8%
 Jika total belanja diatas Rp.200.000, maka diskon 5%
-Method yang digunakan
+# Method yang digunakan
 tambah_barang()
 Metode ini digunakan untuk memasukkan barang ke daftar barang belanja.
 
