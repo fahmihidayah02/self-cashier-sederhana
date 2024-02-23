@@ -65,40 +65,40 @@ Tujuan dari pembuatan projek ini adalah membuat sistem kasir self-service yang d
 
 # METHOD UPDATE TAMBAH BARANG
 <p>
-<img align="center" src="method tambah_barang.png" width="1200" height="700" />
+<img align="center" src="method tambah_barang.png" width="600" height="300" />
 </p>
 
 # METHOD UPDATE NAMA BARANG
 <p>
-<img align="center" src="method update_nama_barang.png" width="1200" height="700" />
+<img align="center" src="method update_nama_barang.png" width="600" height="300" />
 </p>
 
 # METHOD UPDATE JUMLAH BARANG
 <p>
-<img align="center" src="method update_jumlah_barang.png" width="1200" height="700" />
+<img align="center" src="method update_jumlah_barang.png" width="600" height="300" />
 </p>
 
 # METHOD UPDATE HARGA BARANG
 <p>
-<img align="center" src="method update_harga_barang.png" width="1200" height="700" />
+<img align="center" src="method update_harga_barang.png" width="600" height="300" />
 </p>
 
 # METHOD HAPUS BARANG
 <p>
-<img align="center" src="method hapus_barang.png" width="1200" height="700" />
+<img align="center" src="method hapus_barang.png" width="600" height="300" />
 </p>
 
 # METHOD RESET TRANSACTION
 <p>
-<img align="center" src="method reset_transaction.png" width="1200" height="700" />
+<img align="center" src="method reset_transaction.png" width="600" height="300" />
 </p>
 
 # METHOD CEK ORDER
 <p>
-<img align="center" src="method_cek_order.png" width="1200" height="700" />
+<img align="center" src="method_cek_order.png" width="600" height="300" />
 </p>
 
 # METHOD TOTAL BELANJA
 <p>
-<img align="center" src="method total_belanja.png" width="1200" height="700" />
+<img align="center" src="method total_belanja.png" width="600" height="300" />
 </p>
